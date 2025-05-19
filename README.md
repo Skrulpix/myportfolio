@@ -13,7 +13,7 @@ A modern and responsive personal portfolio website built with HTML, CSS, and Jav
 - Grid-based layout with semantic HTML
 - Mobile-friendly and accessible
 - Project gallery 🎯 TODO
-- About section 🎯 TODO
+- About section
 - Contact form (or email link) 🎯 TODO
 - Logo and branding
 
