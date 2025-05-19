@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raphael Stocker - Portfolio</title>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.png" />
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/script.js" defer></script>
+</head>
+
+<body>
+    <div class="page-container">
+        <header class="header">
+            <nav class="nav">
+                <a href="about.html" class="opq">opq</a>
+                <a href="index.html" class="rst">RST</a>
+                <a href="contact.html" class="active uvw">uvw</a>
+            </nav>
+        </header>
+
+        <main class="grid-container-contact" id="content">
+            <section class="image-contact">
+                <img src="images/circuitboard.jpg" alt="Circuitboard">
+            </section>
+            <section class="quotecontact">
+                <h2>"Evolving from<br>circuits to code."</h2>
+            </section>
+            <section class="contact">
+                <h2>Contact me</h2>
+                <form id="contactForm">
+                    <input type="text" name="name" placeholder="Your name..." required />
+                    <input type="email" name="email" placeholder="Your email..." required />
+                    <textarea name="message" rows="11" placeholder="Enter your message here..." required></textarea>
+                    <button type="submit">Send</button>
+                </form>
+                <div id="thankYou" class="thank-you-message">
+                    <p>Thank you for your message! I'll get back to you as soon as possible.</p>
+                </div>
+            </section>
+        </main>
+    </div>
+</body>
+
+</html>
